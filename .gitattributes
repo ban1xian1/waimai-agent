@@ -1,0 +1,8 @@
+# PHP 文件统一使用 LF
+*.php text eol=lf
+
+# Log 文件
+*.log text eol=lf
+
+# 缓存文件（Runtime 下）可以忽略版本控制，不用提交
+Runtime/** -text

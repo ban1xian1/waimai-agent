@@ -1,0 +1,712 @@
+[ 2025-10-09T01:02:30+02:00 ] 127.0.0.1 /Agent/Index/withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.081770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001875s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.025814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027928s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Application\Agent\Controller\AgentController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `hq_cashout` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hq_cashout` WHERE `agent_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+SQL: SELECT * FROM `hq_cashout` WHERE `agent_id` = 1 ORDER BY cashout_id desc LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8] Undefined index: field D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\e01131a5bf62bf32dc0e2d03f3a9468d.php 第 86 行.
+NOTIC: [8] Undefined index: name D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\e01131a5bf62bf32dc0e2d03f3a9468d.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.582834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.582901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001201s ]
+
+[ 2025-10-09T01:02:32+02:00 ] 127.0.0.1 /Agent/Index/jclist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Application\Agent\Controller\AgentController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `hq_goods_product` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hq_goods_product` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+SQL: SELECT * FROM `hq_goods_product` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.844828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.844908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2025-10-09T01:02:36+02:00 ] 127.0.0.1 /Index/edit?id=41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Application\Agent\Controller\AgentController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `hq_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hq_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hq_goods_product` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hq_goods_product` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Agent/View/Public/footer.html): failed to open stream: No such file or directory D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000298s ]
+
+[ 2025-10-09T01:03:46+02:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001824s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Application\Agent\Controller\AgentController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `hq_user` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hq_user` WHERE ( agent_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+SQL: SELECT * FROM `hq_user` WHERE ( agent_id = 1 ) ORDER BY user_id desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+NOTIC: [8] Undefined index: value D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+NOTIC: [8] Undefined index: value D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8] Undefined index: name D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 96 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8] Undefined index: user_ip D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 98 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 145 行.
+NOTIC: [8] Undefined index: addip D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 155 行.
+NOTIC: [8] Undefined index: addr D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 158 行.
+NOTIC: [8] Undefined index: invit_1 D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 160 行.
+NOTIC: [8] Undefined index: invit_2 D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 161 行.
+NOTIC: [8] Undefined index: invit_3 D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 162 行.
+NOTIC: [8] Undefined index: rzstatus D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 166 行.
+NOTIC: [8] Undefined index: rzstatus D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 167 行.
+NOTIC: [8] Undefined index: rzstatus D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 168 行.
+NOTIC: [8] Undefined index: rzstatus D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 169 行.
+NOTIC: [8] Undefined index: rzstatus D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.258619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.258679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2025-10-09T01:05:48+02:00 ] 127.0.0.1 /Agent/Index/jclist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001873s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Application\Agent\Controller\AgentController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `hq_goods_product` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hq_goods_product` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+SQL: SELECT * FROM `hq_goods_product` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.570004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.570070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2025-10-09T01:05:49+02:00 ] 127.0.0.1 /Agent/Index/pclist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Application\Agent\Controller\AgentController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `hq_goods_order` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hq_goods_order` WHERE ( agent_id = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+SQL: SELECT * FROM `hq_goods_order` WHERE ( agent_id = 1 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hq_goods_order_item` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hq_goods_order_item` WHERE `order_id` = 16  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hq_goods_order_item` WHERE `order_id` = 15  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hq_goods_order_item` WHERE `order_id` = 14  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hq_goods_order_item` WHERE `order_id` = 13  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hq_goods_order_item` WHERE `order_id` = 12  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8] Undefined index: search_name D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\8d99dc7b657c5d88d81fd592275b2182.php 第 84 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8] Undefined index: refund_state D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\8d99dc7b657c5d88d81fd592275b2182.php 第 135 行.
+NOTIC: [8] Undefined index: order_state D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\8d99dc7b657c5d88d81fd592275b2182.php 第 151 行.
+NOTIC: [8] Undefined index: refund_state D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\8d99dc7b657c5d88d81fd592275b2182.php 第 135 行.
+NOTIC: [8] Undefined index: refund_state D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\8d99dc7b657c5d88d81fd592275b2182.php 第 135 行.
+NOTIC: [8] Undefined index: refund_state D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\8d99dc7b657c5d88d81fd592275b2182.php 第 135 行.
+NOTIC: [8] Undefined index: order_state D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\8d99dc7b657c5d88d81fd592275b2182.php 第 151 行.
+NOTIC: [8] Undefined index: refund_state D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\8d99dc7b657c5d88d81fd592275b2182.php 第 135 行.
+NOTIC: [8] Undefined index: refund_state D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\8d99dc7b657c5d88d81fd592275b2182.php 第 135 行.
+NOTIC: [8] Undefined index: refund_state D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\8d99dc7b657c5d88d81fd592275b2182.php 第 135 行.
+NOTIC: [8] Undefined index: order_state D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\8d99dc7b657c5d88d81fd592275b2182.php 第 151 行.
+NOTIC: [8] Undefined index: refund_state D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\8d99dc7b657c5d88d81fd592275b2182.php 第 135 行.
+NOTIC: [8] Undefined index: refund_state D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\8d99dc7b657c5d88d81fd592275b2182.php 第 135 行.
+NOTIC: [8] Undefined index: refund_state D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\8d99dc7b657c5d88d81fd592275b2182.php 第 135 行.
+NOTIC: [8] Undefined index: order_state D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\8d99dc7b657c5d88d81fd592275b2182.php 第 151 行.
+NOTIC: [8] Undefined index: refund_state D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\8d99dc7b657c5d88d81fd592275b2182.php 第 135 行.
+NOTIC: [8] Undefined index: refund_state D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\8d99dc7b657c5d88d81fd592275b2182.php 第 135 行.
+NOTIC: [8] Undefined index: refund_state D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\8d99dc7b657c5d88d81fd592275b2182.php 第 135 行.
+NOTIC: [8] Undefined index: order_state D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\8d99dc7b657c5d88d81fd592275b2182.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.287494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.287557s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2025-10-09T01:05:50+02:00 ] 127.0.0.1 /Agent/Index/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002021s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Application\Agent\Controller\AgentController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `hq_goods_order_refund` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hq_goods_order_refund` WHERE `agent_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+SQL: SELECT * FROM `hq_goods_order_refund` WHERE `agent_id` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8] Undefined index: search_type D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\72013a2b134ef69856ecf9ea834221dc.php 第 93 行.
+NOTIC: [8] Undefined index: search_name D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\72013a2b134ef69856ecf9ea834221dc.php 第 95 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8] Undefined index: refund_state D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\72013a2b134ef69856ecf9ea834221dc.php 第 168 行.
+NOTIC: [8] Undefined index: refund_state D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\72013a2b134ef69856ecf9ea834221dc.php 第 168 行.
+NOTIC: [8] Undefined index: refund_state D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\72013a2b134ef69856ecf9ea834221dc.php 第 168 行.
+NOTIC: [8] Undefined index: refund_state D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\72013a2b134ef69856ecf9ea834221dc.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.262402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.262458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2025-10-09T01:05:51+02:00 ] 127.0.0.1 /Agent/Index/withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Application\Agent\Controller\AgentController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `hq_cashout` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hq_cashout` WHERE `agent_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+SQL: SELECT * FROM `hq_cashout` WHERE `agent_id` = 1 ORDER BY cashout_id desc LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8] Undefined index: field D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\e01131a5bf62bf32dc0e2d03f3a9468d.php 第 86 行.
+NOTIC: [8] Undefined index: name D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\e01131a5bf62bf32dc0e2d03f3a9468d.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.208261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.208336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2025-10-09T01:05:53+02:00 ] 127.0.0.1 /Agent/Index/amountlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001753s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Application\Agent\Controller\AgentController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `hq_moneylog` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hq_moneylog` WHERE `agent_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+SQL: SELECT * FROM `hq_moneylog` WHERE `agent_id` = 1 ORDER BY moneylog_id desc LIMIT 0,15   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8] Undefined index: st D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 94 行.
+NOTIC: [8] Undefined index: st D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 97 行.
+NOTIC: [8] Undefined index: st D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 100 行.
+NOTIC: [8] Undefined variable: coinlist D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 107 行.
+NOTIC: [8] Undefined index: type D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 118 行.
+NOTIC: [8] Array to string conversion D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 119 行.
+NOTIC: [8] Undefined index: username D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 123 行.
+NOTIC: [8] Undefined index: starttime D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 124 行.
+NOTIC: [8] Undefined index: starttime D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 125 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.435954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.436002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2025-10-09T01:05:57+02:00 ] 127.0.0.1 /Index/amountlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Application\Agent\Controller\AgentController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `hq_moneylog` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hq_moneylog` WHERE `agent_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+SQL: SELECT * FROM `hq_moneylog` WHERE `agent_id` = 1 ORDER BY moneylog_id desc LIMIT 0,15   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8] Undefined index: st D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 94 行.
+NOTIC: [8] Undefined index: st D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 97 行.
+NOTIC: [8] Undefined index: st D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 100 行.
+NOTIC: [8] Undefined variable: coinlist D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 107 行.
+NOTIC: [8] Undefined index: type D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 118 行.
+NOTIC: [8] Array to string conversion D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 119 行.
+NOTIC: [8] Undefined index: username D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 123 行.
+NOTIC: [8] Undefined index: starttime D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 124 行.
+NOTIC: [8] Undefined index: starttime D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 125 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\c0f95d1089875d75d5c067f5c6429a25.php 第 169 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.283867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.283921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2025-10-09T01:06:08+02:00 ] 127.0.0.1 /Agent/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001745s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Application\Agent\Controller\AgentController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `hq_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hq_user` WHERE ( agent_id = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+SQL: SELECT * FROM `hq_user` WHERE ( agent_id = 1 ) ORDER BY user_id desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+NOTIC: [8] Undefined index: value D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+NOTIC: [8] Undefined index: value D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8] Undefined index: name D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 96 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8] Undefined index: user_ip D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 98 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8] Undefined index: id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 145 行.
+NOTIC: [8] Undefined index: addip D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 155 行.
+NOTIC: [8] Undefined index: addr D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 158 行.
+NOTIC: [8] Undefined index: invit_1 D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 160 行.
+NOTIC: [8] Undefined index: invit_2 D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 161 行.
+NOTIC: [8] Undefined index: invit_3 D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 162 行.
+NOTIC: [8] Undefined index: rzstatus D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 166 行.
+NOTIC: [8] Undefined index: rzstatus D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 167 行.
+NOTIC: [8] Undefined index: rzstatus D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 168 行.
+NOTIC: [8] Undefined index: rzstatus D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 169 行.
+NOTIC: [8] Undefined index: rzstatus D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\0c903924e2e2d7f18d11bb5c96980ff4.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2025-10-09T02:07:17+02:00 ] 127.0.0.1 /Agent/Index/jclist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002550s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Application\Agent\Controller\AgentController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `hq_goods_product` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hq_goods_product` LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+SQL: SELECT * FROM `hq_goods_product` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Common\functions.php 第 157 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+NOTIC: [8] Undefined index: product_id D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 189 行.
+NOTIC: [8] Undefined index: edit_managet D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Runtime\Cache\Agent\a6b2174cd9ccb5c441b039a721103612.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.367328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.367406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001397s ]
+
+[ 2025-10-09T02:07:19+02:00 ] 127.0.0.1 /Index/edit?id=41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001966s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Application\Agent\Controller\AgentController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `hq_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hq_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hq_goods_product` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hq_goods_product` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Agent/View/Public/footer.html): failed to open stream: No such file or directory D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001230s ]
+
+[ 2025-10-09T02:09:32+02:00 ] 127.0.0.1 /Index/edit?id=41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\Application\Agent\Controller\AgentController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `hq_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hq_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hq_goods_product` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hq_goods_product` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Agent/View/Public/footer.html): failed to open stream: No such file or directory D:\danxian\demo\shuadandiancan\shuadanshop\agent.glbyshop.com\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
