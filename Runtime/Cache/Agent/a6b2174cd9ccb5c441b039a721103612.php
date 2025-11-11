@@ -141,7 +141,7 @@
 						    <?php else: ?>
 						     否<?php endif; ?>
 						 </td>
-						  <td><?php echo ($vo["edit_managet"]); ?></td>
+						  <td><?php echo ($vo["last_chang_user"]); ?></td>
 				    	<td>
 					    <a class="btn btn-primary btn-xs" href="<?php echo U('Index/edit');?>?id=<?php echo ($vo["id"]); ?>">编辑</a>
 					    </td>		 

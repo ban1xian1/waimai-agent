@@ -71,6 +71,7 @@ class IndexController extends AgentController
 				'real_price' => $real_price,
 				'recycling_price' => $recycling_price ,
 				'name'=>trim($_POST['name']),
+				'last_chang_user'=>$uinfo['user_name'],
 			]);
 
 
