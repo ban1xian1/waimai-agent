@@ -520,19 +520,55 @@ class IndexController extends AgentController
 		$this->display();
 	}
 
+	private function add_info($type,$id,$errr='')
+	{
+
+		$uid = session('agent_id');
+		$uinfo = M('user')->where(array('user_id' => $uid))->find();
+		$data=[];
+		$data['type']=1;
+		$data['value']='修改出款表id'.$id.'类型'.$type;
+		$data['url']=isset($_SERVER['REQUEST_URI'])?$_SERVER['REQUEST_URI']:(isset($_SERVER['QUERY_STRING'])?$_SERVER['QUERY_STRING']:'');
+		$data['create_time']=time();
+		$data['error_value']=$errr;
+		$data['admin_user']=$uinfo['user_name'];
+		$data['ip']='';
+		M('op_log')->add($data);
+	}
+
 	//审核提现
 	public  function shenhe_withdraw($act=null,$id=null)
 	{
-
+		if (!session('agent_id')) {
+			$this->redirect('Agent/Login/index');
+		}
 		if ($act && $id) {
+			$get_id=isset($_GET['id'])?(int)$_GET['id']:0;
+			$get_act=isset($_GET['act'])?(string)$_GET['act']:'';
+			if($get_id!=$id||$get_act!=$act||!in_array($act,['refuse','success'])){
+				$this->add_info($act,$id,'参数不一致get获取的参数'.$get_id.'|'.$get_act);
+				$this->error("参数错误");
+				return;
+			}
 			$where['cashout_id'] =(int)$id;
 			$data=M('cashout')->where($where)->find();
 			if(!$data||$data['cashout_state']!=0){
 				$this->error("你要修改的数据不存在");
+				return;
 			}
+			$redis=new \Redis();
+			$redis->connect('127.0.0.1',6379);
+			$key='changecashout'.$id;
+			if($redis->incr($key)>1){
+				$this->error("有人在操作请稍后再试");
+				return;
+			}
+			$redis->expire($key, 5);
 			if($act=='success'){
 				M('cashout')->where($where)->save(array('cashout_state'=>1,'cashout_ptime'=>time()));
+				$this->add_info($act,$id);
 				$this->success("操作成功");
+				return;
 			}
 			//拒绝修改会员金额修改订单状态加入日志
 			$Db = M();
@@ -556,6 +592,7 @@ class IndexController extends AgentController
 				$moneylog=M('moneylog');
 				$moneylog->add($sql_set);
 				$Db->commit();
+				$this->add_info($act,$id);
 				$this->success("操作成功");
 			}catch (\Exception $e) {
 				var_dump($e->getMessage());
